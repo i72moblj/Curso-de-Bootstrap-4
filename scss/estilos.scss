@@ -18,7 +18,7 @@ body {
 .encabezado {
     background: $texto;
     color: #fff;
-    padding: 0.5rem 0;
+    padding: .5rem 0;
 }
 
 .encabezado .container {
@@ -30,4 +30,14 @@ body {
 .encabezado .logo img {
     width: 150px;
     height: auto;
+}
+
+.boton-buscar,
+.boton-menu {
+    border: 0;
+    font-size: 2rem;
+    margin: 0;
+    padding: 0 .5rem;
+    background: transparent;
+    color: #fff;
 }

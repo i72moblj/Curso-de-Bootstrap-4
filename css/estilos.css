@@ -8,7 +8,7 @@ body {
 .encabezado {
   background: #111111;
   color: #fff;
-  padding: 0.5rem 0; }
+  padding: .5rem 0; }
 
 .encabezado .container {
   display: flex;
@@ -18,5 +18,14 @@ body {
 .encabezado .logo img {
   width: 150px;
   height: auto; }
+
+.boton-buscar,
+.boton-menu {
+  border: 0;
+  font-size: 2rem;
+  margin: 0;
+  padding: 0 .5rem;
+  background: transparent;
+  color: #fff; }
 
 /*# sourceMappingURL=estilos.css.map */
