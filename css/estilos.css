@@ -19,6 +19,9 @@ body {
   width: 150px;
   height: auto; }
 
+.logo {
+  flex-grow: 1; }
+
 .boton-buscar,
 .boton-menu {
   border: 0;
@@ -26,6 +29,33 @@ body {
   margin: 0;
   padding: 0 .5rem;
   background: transparent;
+  color: #fff; }
+
+.boton-buscar:focus,
+.boton-menu:focus {
+  outline: 0; }
+
+/*Estilos bloque buscar*/
+#bloque-buscar {
+  flex: 1 1 100%; }
+
+.contenedor-bloque-buscar {
+  display: flex;
+  height: 3rem;
+  margin: 1rem 0;
+  align-items: center; }
+
+.contenedor-bloque-buscar input[type="text"] {
+  flex: 1 1 auto;
+  border: 0;
+  border-radius: 5px 0 0 5px;
+  padding: 1rem; }
+
+.contenedor-bloque-buscar input[type="submit"] {
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  padding: 1rem;
+  background: #12AFAF;
   color: #fff; }
 
 /*# sourceMappingURL=estilos.css.map */
