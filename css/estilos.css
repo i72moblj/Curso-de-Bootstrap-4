@@ -5,6 +5,12 @@ body {
   font-family: 'Open Sans', sans-serif;
   color: #111111; }
 
+.bienvenidos {
+  background: url("../images/fondo-encabezado.jpg") no-repeat center top;
+  color: #fff;
+  background-size: cover;
+  height: 100vh; }
+
 .encabezado {
   background: #111111;
   color: #fff;
@@ -78,5 +84,27 @@ body {
 #menu-principal ul li a:hover,
 #menu-principal ul li.active a {
   color: #12AFAF; }
+
+.texto-encabezado .display-4 {
+  padding-top: 5rem; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #12AFAF;
+  border-color: #12AFAF;
+  margin-top: 1rem; }
+
+.btn-primary {
+  color: #fff;
+  background-color: #12AFAF;
+  border-color: #12AFAF;
+  margin-top: 1rem;
+  transition: all .5s ease; }
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active:hover {
+  background-color: #009500;
+  border-color: transparent; }
 
 /*# sourceMappingURL=estilos.css.map */
