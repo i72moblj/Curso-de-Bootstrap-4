@@ -58,4 +58,25 @@ body {
   background: #12AFAF;
   color: #fff; }
 
+#menu-principal {
+  flex: 1 1 100%; }
+
+#menu-principal ul {
+  padding: 0;
+  list-style: none;
+  margin-top: 1rem; }
+
+#menu-principal ul li a {
+  display: block;
+  padding: .8rem 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-top: 1px solid #fff; }
+
+#menu-principal ul li a:hover,
+#menu-principal ul li.active a {
+  color: #12AFAF; }
+
 /*# sourceMappingURL=estilos.css.map */
