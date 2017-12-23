@@ -9,7 +9,9 @@ body {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
-  height: 100vh; }
+  height: 100vh;
+  display: flex;
+  flex-direction: column; }
 
 .encabezado {
   background: #111111;
@@ -85,6 +87,11 @@ body {
 #menu-principal ul li.active a {
   color: #12AFAF; }
 
+.texto-encabezado {
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center; }
+
 .texto-encabezado .display-4 {
   padding-top: 5rem; }
 
@@ -106,5 +113,19 @@ body {
 .btn-primary:active:hover {
   background-color: #009500;
   border-color: transparent; }
+
+.flecha-bajar a {
+  display: inline-block;
+  color: #fff;
+  font-size: 4rem;
+  animation: flecha-animada 2s ease-in-out infinite; }
+
+@keyframes flecha-animada {
+  from {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(6px); }
+  to {
+    transform: translateY(0); } }
 
 /*# sourceMappingURL=estilos.css.map */

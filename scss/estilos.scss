@@ -19,6 +19,8 @@ body {
     color: #fff;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .encabezado {
@@ -111,6 +113,12 @@ body {
     color: $principal
 }
 
+.texto-encabezado {
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+}
+
 .texto-encabezado .display-4{
     padding-top: 5rem;
 }
@@ -135,6 +143,25 @@ body {
 .btn-primary:active:hover {
     background-color: $secundario;
     border-color: transparent;   
+}
+
+.flecha-bajar a {
+    display: inline-block;
+    color: #fff;
+    font-size: 4rem;
+    animation: flecha-animada 2s ease-in-out infinite;
+}
+
+@keyframes flecha-animada {
+    from {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(6px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 
