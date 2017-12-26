@@ -127,5 +127,13 @@ body {
     transform: translateY(6px); }
   to {
     transform: translateY(0); } }
+.agencia {
+  background: #12AFAF;
+  color: #fff; }
+
+.agencia img {
+  width: 80%;
+  margin: 0 auto;
+  display: block; }
 
 /*# sourceMappingURL=estilos.css.map */
