@@ -179,6 +179,48 @@ body {
     display: block;
 }
 
+//---------------------------------
+// SECCION TU MEJOR ELECCION
+//---------------------------------
+
+.tu-mejor-eleccion h2 span {
+    color: $principal;
+}
+
+.tu-mejor-eleccion ul,
+.tu-mejor-eleccion ul li {
+    list-style: none;
+}
+
+.tu-mejor-eleccion ul li i {
+    font-size: 2.4rem;
+    background: $secundario;
+    border-radius: 50%;
+    padding: 2rem;
+    color: #fff;
+}
+
+.contenedor-eleccion h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .4rem;
+}
+
+.tu-mejor-eleccion ul li {
+    min-height: 10rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

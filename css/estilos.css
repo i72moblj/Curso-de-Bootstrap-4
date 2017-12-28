@@ -136,4 +136,26 @@ body {
   margin: 0 auto;
   display: block; }
 
+.tu-mejor-eleccion h2 span {
+  color: #12AFAF; }
+
+.tu-mejor-eleccion ul,
+.tu-mejor-eleccion ul li {
+  list-style: none; }
+
+.tu-mejor-eleccion ul li i {
+  font-size: 2.4rem;
+  background: #009500;
+  border-radius: 50%;
+  padding: 2rem;
+  color: #fff; }
+
+.contenedor-eleccion h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: .4rem; }
+
+.tu-mejor-eleccion ul li {
+  min-height: 10rem; }
+
 /*# sourceMappingURL=estilos.css.map */
