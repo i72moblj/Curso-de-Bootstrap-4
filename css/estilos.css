@@ -275,6 +275,35 @@ body {
   text-decoration: none;
   color: #fff; }
 
+.paginas-internas .bienvenidos {
+  height: 50vh; }
+
+.paginas-internas .ruta {
+  background: #12AFAF;
+  color: #fff; }
+
+.paginas-internas .ruta a {
+  color: #fff;
+  text-decoration: underline; }
+
+.paginas-internas .ruta a:hover {
+  text-decoration: none; }
+
+.paginas-internas #accordion .item h4 {
+  font-size: 1.2rem; }
+
+.paginas-internas #accordion .item h4 a {
+  background: #12AFAF;
+  color: #fff;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all .5s ease; }
+
+.paginas-internas #accordion .item h4 a:hover {
+  background: #009500; }
+
 @media (min-width: 768px) {
   #menu-principal {
     height: auto !important;

@@ -358,6 +358,46 @@ body {
 }
 
 //---------------------------------
+// PAGINA NOSOTROS
+//---------------------------------
+
+.paginas-internas .bienvenidos {
+    height: 50vh;
+}
+
+.paginas-internas .ruta {
+    background: $principal;
+    color: #fff;
+}
+
+.paginas-internas .ruta a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.paginas-internas .ruta a:hover {
+    text-decoration: none;
+}
+
+.paginas-internas #accordion .item h4 {
+    font-size: 1.2rem;
+}
+
+.paginas-internas #accordion .item h4 a {
+    background: $principal;
+    color: #fff;
+    display: block;
+    padding: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.paginas-internas #accordion .item h4 a:hover {
+    background: $secundario;
+}
+
+//---------------------------------
 // EMPIEZAN LAS MEDIAS QUERIES
 //---------------------------------
 @media(min-width: 768px) {
@@ -425,13 +465,13 @@ body {
     .servicios h3 a::after {
         display: none;
     }
-    
+
     .servicios h3 {
         margin: 0 0 .5rem 0;
         font-size: 1.5rem;
         flex: 0 1 auto;
     }
-    
+
     .btn-secondary {
         margin-top: auto;
     }
@@ -443,57 +483,49 @@ body {
     html {
         font-size: 16px;
     }
-    
+
     .tu-mejor-eleccion ul li {
         display: flex;
         align-items: flex-start;
         min-height: 9rem;
     }
-    
+
     .tu-mejor-eleccion ul li i {
         text-align: center;
         flex: 0 1 auto;
         transition: all 1s ease;
     }
-    
+
     .tu-mejor-eleccion ul li:hover i {
         transform: rotateY(360deg);
         transform-style: preserve-3d;
         background: $principal;
     }
-    
+
     .contenedor-eleccion {
         flex: 1 0 0px;
     }
-    
+
     .contenedor-eleccion h4 {
         margin-top: 0;
         font-size: 1.1rem;
     }
-    
+
     .tu-mejor-eleccion ul:first-child li i {
         order: 2;
         margin-left: 1rem;
     }
-    
+
     .tu-mejor-eleccion ul:first-child .contenedor-eleccion {
-        order: 1;    
+        order: 1;
     }
-    
+
     .tu-mejor-eleccion ul:last-child li i {
         margin-right: 1rem;
     }
-    
+
     .tu-mejor-eleccion .row img {
         padding-top: 3rem;
     }
-    
+
 }
-
-
-
-
-
-
-
-
