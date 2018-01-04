@@ -398,6 +398,14 @@ body {
 }
 
 //---------------------------------
+// PAGINA SERVICIOS
+//---------------------------------
+
+.paginas-internas .lista-servicios {
+    background: $secundario;
+}
+
+//---------------------------------
 // EMPIEZAN LAS MEDIAS QUERIES
 //---------------------------------
 @media(min-width: 768px) {

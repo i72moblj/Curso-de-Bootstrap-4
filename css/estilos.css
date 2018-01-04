@@ -304,6 +304,9 @@ body {
 .paginas-internas #accordion .item h4 a:hover {
   background: #009500; }
 
+.paginas-internas .lista-servicios {
+  background: #009500; }
+
 @media (min-width: 768px) {
   #menu-principal {
     height: auto !important;
