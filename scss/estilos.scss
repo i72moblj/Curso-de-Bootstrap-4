@@ -405,6 +405,26 @@ body {
     background: $secundario;
 }
 
+.paginas-internas .lista-servicios .item-servicios {
+    background: #fff;
+    text-align: center;
+    border: 5px solid #057705;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+
+.paginas-internas .lista-servicios .item-servicios i {
+    color: $principal;
+    font-size: 6rem;
+    margin-bottom: 1rem;
+    transition: all .5s ease;
+}
+
+.paginas-internas .lista-servicios .item-servicios:hover i {
+    transform: rotateY(180deg);
+    transform-style: preserve-3d;
+}
+
 //---------------------------------
 // EMPIEZAN LAS MEDIAS QUERIES
 //---------------------------------
@@ -480,10 +500,25 @@ body {
         flex: 0 1 auto;
     }
 
-    .btn-secondary {
+    .servicios .btn-secondary {
         margin-top: auto;
     }
+    
+    /*Pagina Servicios*/
 
+    .paginas-internas .lista-servicios .col-md-4 {
+        display: flex;
+    }
+    
+    .paginas-internas .lista-servicios .item-servicios {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .paginas-internas .lista-servicios .item-servicios .btn-primary {
+        margin-top: auto;
+    }
+    
 }
 
 
