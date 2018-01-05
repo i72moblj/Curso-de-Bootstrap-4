@@ -356,7 +356,6 @@ body {
 //---------------------------------
 // PAGINA NOSOTROS
 //---------------------------------
-
 .paginas-internas .bienvenidos {
     height: 50vh;
 }
@@ -396,7 +395,6 @@ body {
 //---------------------------------
 // PAGINA SERVICIOS
 //---------------------------------
-
 .paginas-internas .lista-servicios {
     background: $secundario;
 }
@@ -499,28 +497,37 @@ body {
     .servicios .btn-secondary {
         margin-top: auto;
     }
-    
-    /*Pagina Servicios*/
 
+    /*Pagina Servicios*/
     .paginas-internas .lista-servicios .col-md-4 {
         display: flex;
     }
-    
+
     .paginas-internas .lista-servicios .item-servicios {
         display: flex;
         flex-direction: column;
     }
-    
+
     .paginas-internas .lista-servicios .item-servicios .btn-primary {
         margin-top: auto;
     }
-    
+
 }
 
 
 @media(min-width: 992px) {
     html {
         font-size: 16px;
+    }
+
+    .bienvenidos {
+        background: url("../images/fondo-encabezado-grande.jpg") no-repeat center top;
+        background-size: cover;
+    }
+
+    .servicios {
+        background: url("../images/fondo-servicios-grande.jpg") no-repeat center center;
+        background-size: cover;
     }
 
     .tu-mejor-eleccion ul li {
