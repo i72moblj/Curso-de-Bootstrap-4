@@ -124,10 +124,7 @@ body {
     padding-top: 5rem;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: $principal;
-    border-color: $principal;
+.texto-encabezado .btn-primary {
     margin-top: 1rem;
 }
 
@@ -135,7 +132,6 @@ body {
     color: #fff;
     background-color: $principal;
     border-color: $principal;
-    margin-top: 1rem;
     transition: all .5s ease;
 }
 
