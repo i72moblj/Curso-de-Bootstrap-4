@@ -9,6 +9,7 @@ body {
   background: url("../images/fondo-encabezado.jpg") no-repeat center top;
   color: #fff;
   background-size: cover;
+  background-attachment: fixed !important;
   height: 100vh;
   display: flex;
   flex-direction: column; }
@@ -158,6 +159,7 @@ body {
 .servicios {
   background: url("../images/fondo-servicios.jpg") no-repeat center center;
   background-size: cover;
+  background-attachment: fixed !important;
   color: #fff; }
 
 .servicios article {
